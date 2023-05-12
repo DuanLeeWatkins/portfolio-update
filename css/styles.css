@@ -388,7 +388,7 @@ header {
 
 .portfolio {
   display: grid;
-  grid-template-columns: 1fr, 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .portfolio__item {
@@ -398,6 +398,7 @@ header {
 
 .portfolio__img {
   transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
+  height: 100%;
   
 }
 
